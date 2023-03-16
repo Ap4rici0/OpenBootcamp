@@ -1,0 +1,26 @@
+public class Main {
+    public static void main(String[] args) {
+
+        int resultado = suma(1,2,3);
+
+        System.out.println("El resultado es " + resultado);
+
+        coche  micoche= new coche();
+        micoche.quitarPuertas();
+        System.out.println("El número de puertas es " + micoche.puertas);
+    }
+
+    public static int suma(int a,int b, int c){
+        return a + b + c;
+        }
+
+
+}
+
+class coche {
+    public int puertas = 4;
+
+    public void quitarPuertas(){
+        this.puertas--;
+    }
+}
