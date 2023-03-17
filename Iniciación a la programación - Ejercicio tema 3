@@ -6,7 +6,7 @@ public class Main {
         System.out.println("El resultado es " + resultado);
 
         coche  micoche= new coche();
-        micoche.quitarPuertas();
+        micoche.añadirPuertas();
         System.out.println("El número de puertas es " + micoche.puertas);
     }
 
@@ -20,7 +20,7 @@ public class Main {
 class coche {
     public int puertas = 4;
 
-    public void quitarPuertas(){
-        this.puertas--;
+    public void añadirPuertas(){
+        this.puertas++;
     }
 }
