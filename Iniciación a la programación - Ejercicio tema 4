@@ -1,0 +1,55 @@
+public class Main {
+    public static void main(String[] args) {
+
+        int numeroPositivo = -1;
+        int numeroWhile = 0;
+        String estacion = "CASA";
+
+
+        if(numeroPositivo < 0){
+            System.out.println("El número es negativo");
+        }else if(numeroPositivo > 0){
+            System.out.println("El número es positivo");
+        }else{
+            System.out.println("El número es cero");
+        }
+
+
+        while(numeroWhile < 3){
+            numeroWhile++;
+            System.out.println("El bucle While " + numeroWhile);
+        }
+
+
+       do {
+           numeroWhile++;
+           System.out.println("El bucle Do " + numeroWhile);
+       }
+        while(numeroWhile < 3);{
+            numeroWhile++;
+            System.out.println("Forzamos el While " + numeroWhile);
+        }
+
+        for(int numeroFor = 0; numeroFor <= 3; numeroFor++){
+            System.out.println("El bucle for: " + numeroFor);
+        }
+
+        switch(estacion){
+            case "PRIMAVERA":
+                System.out.println("Estamos en primavera");
+                break;
+            case "VERANO":
+                System.out.println("Estamos en verano");
+                break;
+            case "OTOÑO":
+                System.out.println("Estamos en otoño");
+                break;
+            case "INVIERNO":
+                System.out.println("Estamos en invierno");
+                break;
+            default:
+                System.out.println("No es una estación");
+                break;
+        }
+    }
+}
