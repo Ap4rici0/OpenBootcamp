@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejercicio de Introducción a HTML en OpenBootcamp</title>
+    </head>
+    <body>
+        <!-- Este es mi primer comentario de dos líneas
+        Aprendiendo a documentar mi código-->
+        <ul>
+            <li>
+                <a href="https://www.youtube.com/watch?v=jfKfPfyJRdk">lofi hip hop radio - beats to relax/study to</a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/watch?v=vV4QSgDd7kU&t=1174s">30 CURIOSIDADES ACOJONANTES DE HARRY POTTER Y LA CÁMARA SECRETA (2002)</a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/watch?v=D3eapefwdKk">Can I Survive a CORDYCEPS BITE in Project Zomboid?</a>
+            </li>
+        </ul>
+    </body>
+</html>
