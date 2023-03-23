@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 02/02 - Tablas en HTML</title>
+</head>
+<body>
+    <table>
+        <thead>
+            <th>
+                Título
+            </th>
+            <th>
+                Autor
+            </th>
+            <th>
+                Año de publicación
+            </th>
+            <th>
+                Enlace a Amazon
+            </th>
+        </thead>
+        <tbody>
+        <tr>
+        <td>El nombre del viento</td>
+        <td>Patrick Rothfuss</td>
+        <td align="center">2007</td>
+        <td><a href="https://www.amazon.es/nombre-del-viento-BEST-SELLER/dp/8499082475">Enlace a Amazon</a></td>
+        </tr>
+        <tr>
+            <td>Antes de que los cuelguen</td>
+            <td align=>Joe Abercrombie</td>
+            <td align="center">2007</td>
+            <td><a href="https://www.amazon.es/Antes-que-los-cuelguen-Primera/dp/8491044361/ref=sr_1_1?adgrpid=55620876229&hvadid=275522340607&hvdev=c&hvlocphy=
+                9061040&hvnetw=g&hvqmt=e&hvrand=15680325632377096481&hvtargid=kwd-
+                456804575266&hydadcr=1979_1823554&keywords=antes+de+que+los+cuelguen&qid=1679573907&sr=8-1">Enlace a Amazon</a></td>
+        </tr>
+        <tr>
+            <td>El señor de los anillos</td>
+            <td>J.R.R Tolkien</td>
+            <td align="center">1954</td>
+            <td><a href="https://www.amazon.es/Pack-Trilogía-Señor-los-Anillos/dp/844501384X/ref=sr_1_10?__mk_es_ES=ÅMÅŽÕÑ&
+                crid=37UYRNXNXWZNA&keywords=el+señor+de+los+anillos&qid=1679574097&sprefix=el+señor+de+los+anillo%2Caps%2C117&sr=8-10">
+            Enlace a Amazon</a></td>
+        </tr>
+        </tbody>
+
+    </table>
+</body>
+</html>
