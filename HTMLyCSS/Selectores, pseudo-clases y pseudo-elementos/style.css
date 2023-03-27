@@ -1,0 +1,12 @@
+button:hover{
+    background-color: rgb(47, 255, 0);
+    color: white;
+}
+button::before{
+    content: "Pasa por encima";
+}
+
+button:hover::before{
+    content: "¡Hecho!";
+}
+
