@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disposición de elementos en CSS</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="galeria">
+        <img src="https://assets.reedpopcdn.com/digitalfoundry-2015-metal-gear-solid-5-phantom-pain-face-off-1441039540352.jpg/BROK/thumbnail/1200x900/quality/100/digitalfoundry-2015-metal-gear-solid-5-phantom-pain-face-off-1441039540352.jpg" alt="foto 1" class="img">
+        <img src="https://codigoespagueti.com/wp-content/uploads/2023/01/Metal-Gear-Solid-estara-de-regreso-muy-pronto-segun-este-rumor.jpg" alt="foto 2" class="img">
+        <img src="https://static1-es.millenium.gg/articles/0/46/63/0/@/248628-mgs3-article_m-1.jpg" alt="foto 3" class="img">
+        <img src="https://img.asmedia.epimg.net/resizer/w6zzwMbSZpZIcQDSHkZzuzNxVdE=/1952x1098/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/57QMUPMJENLZPIDWY55CBN4A6A.jpg" alt="foto 4" class="img">
+        <img src="https://s3.gaming-cdn.com/images/products/1643/orig/metal-gear-solid-v-the-definitive-experience-definitive-edition-pc-juego-steam-cover.jpg?v=1649865050" alt="foto 5" class="img">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz8FHlTkyLQ0V7N7erHk475JBvjteUShtJhQ&usqp=CAU" alt="foto 6" class="img">
+    </div>
+</body>
+</html>
