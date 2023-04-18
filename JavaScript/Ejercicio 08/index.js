@@ -1,5 +1,3 @@
-let uno = 1;
-
 let datos = {
     nombre: "Ramón",
     apellido: "Fernandez",
@@ -8,16 +6,11 @@ let datos = {
     desarrollador: true
     }
 
-let edadRamon = "edad";
-console.log(datos[edadRamon]);
+let edadRamon = datos.edad;
+console.log(edadRamon);
 
 let ramonAmigos = [
-    {
-        nombre: "Ramón",
-        apellido: "Fernandez",
-        edad: 33,
-        altura: 175,
-        desarrollador: true
+    {...datos
     },
     {
         nombre: "Anton",
@@ -34,7 +27,5 @@ let ramonAmigos = [
         desarrollador: false,
 }]
 
-ramonAmigos.sort((a,b) => a.edad - b.edad);
-console.log(ramonAmigos)
-
-
+let listaOrdenada = ramonAmigos.sort((a,b) => a.edad - b.edad);
+console.log(listaOrdenada);
